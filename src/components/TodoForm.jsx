@@ -14,6 +14,7 @@ function TodoForm({ todos, setTodos }) {
       text: todo,
     };
     setTodos([...todos, newTodo]);
+    setTodo("")
   };
 
   return (
